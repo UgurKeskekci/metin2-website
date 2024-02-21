@@ -5,7 +5,7 @@ import { useState } from "react";
 import OkeyEventTable from "./EventPlaygrounds/OkeyEventTable/OkeyEventTable";
 
 export const EventHelper = () => {
-const [contentVisible, setContentVisible] = useState();
+const [contentVisible, setContentVisible] = useState(true);
 const handleItemClick = () => {
   setContentVisible(!contentVisible);
 };
