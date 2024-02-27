@@ -19,9 +19,9 @@ function OkeyEventTable() {
       }
     });
   };
+  
 
   const handleResetClick = () => {
-    // Reset all selected cards
     setSelectedCards([]);
   };
 
