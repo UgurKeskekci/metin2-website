@@ -8,5 +8,9 @@ export default defineConfig({
     modules: {
       localsConvention: "camelCase",
     },
+    
+  },
+  build: {
+    outDir: 'docs', 
   },
 });
